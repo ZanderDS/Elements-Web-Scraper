@@ -48,38 +48,3 @@ df = pd.DataFrame(table)
 df.to_json('elements.json')
 print(df)
 print('Successfully saved to .json format')
-  
-  
-
-
-
-
-
- 
-  
-#hier_index = list(zip(headings))
-
-#df = pd.DataFrame(random.randn(118,1),hier_index)
-# =============================================================================
-# for i in range(4:122):
-#   row_data = []
-#   for x in element_table_data[i].find_all('td'):
-#     row_data.append(x.get_text().strip())
-# =============================================================================
-
-
-
-  
-#print(headings)
-# =============================================================================
-# source = urlopen(url).read()
-# 
-# soup = BeautifulSoup(source, 'html.parser')
-# 
-# tables = soup.find_all('table')
-# 
-# table_rows = tables[0].find_all('tr')
-# 
-# for tr in table_rows:
-#   print(tr)
-# =============================================================================
